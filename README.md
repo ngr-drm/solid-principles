@@ -14,7 +14,7 @@
 
 <ul><li>tsnd (ts-node-dev): To run Typescript in the development environment.</li>
 
-<li>--transpile-only: To just transpile the code. The type verification process is ignored, speeding up the process.</li>
+<li>--transpile-only: To just transpile the code. The type-check process is ignored, speeding up the process.</li>
 
 <li>--respawn: For automatic restart of the application after code changes.</li>
 

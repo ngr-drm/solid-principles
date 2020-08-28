@@ -10,8 +10,8 @@ import { IMailProvider } from "../../providers/IMailProvider";
  * userRepository é do tipo IUsersRepository, uma interface que pode
  * possuir métodos em dintintas abstrações, o que converge com o princípio
  * da substitução de Liskov. O princípio da inversão da dependência também pode 
- * ser observado nesta classe, já que as operações do banco de dados são uma 
- * dependência indireta, ou seja, a sua implementação está contida em uma camada específica.
+ * ser observado nesta classe, já que as operações do banco de dados não foram declaradas 
+ * diretamente na classe de controle (CreateUserController).
  */
 
 export class CreateUserUseCase {

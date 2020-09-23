@@ -5,13 +5,11 @@ import { IMailProvider } from "../../providers/IMailProvider";
 
 /**
  * Observações sobre os conceitos do SOLID:
- * Notamos que está classe possue apenas uma funcionalidade, o que sugere
+ * Notamos que está classe foi construída para representar um único contexto, o que sugere
  * o princípio da responsabilidade única. Além disso, o atributo
  * userRepository é do tipo IUsersRepository, uma interface que pode
- * possuir métodos em dintintas abstrações, o que converge com o princípio
- * da substitução de Liskov. O princípio da inversão da dependência também pode 
- * ser observado nesta classe, já que as operações do banco de dados não foram declaradas 
- * diretamente na classe de controle (CreateUserController).
+ * possuir dintintas abstrações intercambiáveis, o que converge com o princípio
+ * da substitução de Liskov.
  */
 
 export class CreateUserUseCase {

@@ -1,5 +1,3 @@
-**Design pattern: Package by Feature.**
-
 
 **SOLID concepts applied:**
 

@@ -4,8 +4,8 @@ import { User } from "../../entities/User";
 import { IMailProvider } from "../../providers/IMailProvider";
 
 /**
- * Observações sobre os conceitos do SOLID:
- * Notamos que está classe foi construída para representar um único contexto, o que sugere
+ * Alguns conceitos do SOLID podem ser observados:
+ * Note que está classe foi construída para representar um único contexto, o que sugere
  * o princípio da responsabilidade única. Além disso, o atributo
  * userRepository é do tipo IUsersRepository, uma interface que pode
  * possuir dintintas abstrações intercambiáveis, o que converge com o princípio
